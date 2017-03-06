@@ -3,6 +3,6 @@
 # out the number of days you have been alive.
 
 age = 34
-days_alive = age * 365
+days_alive = age * 365.25
 
 print days_alive
