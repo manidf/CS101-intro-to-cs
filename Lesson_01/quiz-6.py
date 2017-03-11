@@ -6,3 +6,5 @@ t = 'bodacious'
 # your code.
 
 print s[0:1] + t[2:]
+print s[:5] + t[6:]
+print s[:-2] + t[-3:]
