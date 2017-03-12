@@ -22,8 +22,9 @@
 
 x = 3.14159
 
-whole_number = str(x)
+whole_number = round(x, 1)
+string_whole_number = str(whole_number)
 
-print x
-print whole_number
+
+print string_whole_number
 
