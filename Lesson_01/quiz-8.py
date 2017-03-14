@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+import re
+>>>>>>> Stashed changes
 # Assume text is a variable that
 # holds a string. Write Python code
 # that prints out the position
@@ -25,3 +29,13 @@ print text.find('zip', first_zip + 1)
 
 # IMPORTANT BEFORE SUBMITTING: 
 # You should only have one print command in your function
+# look at the language of the question to infer what to use in code.
+# and / or -> if else
+# ouccrourance -> count, length
+
+# text = "all zip files are zipped"
+text = "zip file"
+
+my_array = re.findall('zip', text)
+
+print my_array
