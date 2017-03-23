@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-=======
-import re
->>>>>>> Stashed changes
 # Assume text is a variable that
 # holds a string. Write Python code
 # that prints out the position
@@ -14,28 +10,11 @@ import re
 # can occur in a string
 
 # Here are two example test cases:
-#text = 'all zip files are zipped' 
+text = 'all zip files are zipped'
 # >>> 18
-# text = 'all zip files are compressed'
+text = 'all zip files are compressed'
 # >>> -1
 
-text = "all zip files are zipped"
-
 first_zip = text.find('zip')
-
-# ENTER CODE BELOW HERE
-
-print text.find('zip', first_zip + 1)
-
-# IMPORTANT BEFORE SUBMITTING: 
-# You should only have one print command in your function
-# look at the language of the question to infer what to use in code.
-# and / or -> if else
-# ouccrourance -> count, length
-
-# text = "all zip files are zipped"
-text = "zip file"
-
-my_array = re.findall('zip', text)
-
-print my_array
+second_zip = text.find('zip', first_zip + 1)
+print second_zip
