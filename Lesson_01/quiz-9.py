@@ -21,10 +21,10 @@
 # >>> 4 (not 4.0)
 
 x = 3.14159
-
-whole_number = round(x, 1)
-string_whole_number = str(whole_number)
-
-
-print string_whole_number
-
+num = x + 0.5
+s = str(num)
+point = s.find('.')
+print num
+# print s
+# print point
+print s[:point]
