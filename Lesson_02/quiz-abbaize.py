@@ -4,17 +4,13 @@
 # followed by two repetitions of the second input,
 # followed by the first input.
 
-
 def abbaize(a, b):
     return a+b+b+a
 
 a = 'dog'
 b = 'cat'
 
-
-print abbaize(a,b);
-
-
+print abbaize(a,b)
 
 #print abbaize('a','b')
 #>>> 'abba'
